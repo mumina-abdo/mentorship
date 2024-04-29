@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(rgb(232, 149, 232), rgb(93, 162, 93));
+    background-image: url(/images/NEW.png);
+    background-repeat: no-repeat;
+    margin-left: 33%;
+    
+
+}
+
+
+
+.button {
+    width: 200px;
+    font-size: xx-large;
+    border-radius: 36px;
+    text-decoration: none;
+    
+}
+ 
+
+#wholepage{
+    margin-left: 52%;
+    padding-top: 25%;
+    font-size: larger;
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.navbar a{
+    justify-content: space-between;
+    font-size: larger;
+    text-decoration: none;
+    
+}
+.welcome{
+    color: rgb(99, 61, 135);
+    
+}
+
+@media only screen and (min-width:280px) and (max-width:680px) {
+
+    body{
+        background-image: linear-gradient(rgb(232, 149, 232), rgb(93, 162, 93));
+        background-image: url(/images/NEW.png);
+        background-repeat: no-repeat;
+        
+        
+    
+    }
+    
+    
+    
+    .button {
+        width: 200px;
+        font-size: xx-large;
+        border-radius: 36px;
+        text-decoration: none;
+        
+    }
+     
+    
+    #wholepage{
+        margin-left: 52%;
+        padding-top: 25%;
+        font-size: 20px;
+    
+    }
+    
+    
+    .navbar{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+    
+    .navbar a{
+        justify-content: space-between;
+        font-size: larger;
+        text-decoration: none;
+        
+    }
+    .welcome{
+        color: rgb(99, 61, 135);
+        
+        
+    }
+
+    
+}

@@ -1,0 +1,180 @@
+body{
+    background-image: linear-gradient(rgb(232, 149, 232),rgb(239, 239, 167),rgb(134, 134, 219), rgb(93, 162, 93));
+}
+
+.story{
+    font-size: large;
+    margin-left: 8%;
+}
+
+.trevor{
+    width: 80%;
+    height: 60%;
+    margin-left: 7%;
+    margin-left: 8%;
+    padding-top: 15%;
+    
+}
+
+#wholepage{
+    display: flex;
+    justify-content: center;
+
+}
+
+.born{
+    margin-left: 18%;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.navbar a{
+    justify-content: space-between;
+    font-size: large;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 420px){
+    body{
+        background-image: linear-gradient(rgb(232, 149, 232),rgb(239, 239, 167),rgb(134, 134, 219), rgb(93, 162, 93));
+    }
+    
+    .story{
+        font-size: small;
+        margin-left: 5%;
+    }
+    
+    .trevor{
+        width: 80%;
+        height: 80%;
+        /* margin-left: 7%; */
+        margin-left: 8%;
+        padding-top: 3%;
+        
+    }
+    
+    #wholepage{
+        flex-wrap: wrap;
+    
+    }
+    
+    .born{
+        margin-left: 18%;
+    }
+    
+    
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+    }
+    
+    .navbar a{
+        justify-content: space-between;
+        font-size: small;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 565px) and (max-width: 764px){
+    body{
+        background-image: linear-gradient(rgb(232, 149, 232),rgb(239, 239, 167),rgb(134, 134, 219), rgb(93, 162, 93));
+    }
+    
+    .story{
+        font-size: small;
+        margin-left: 5%;
+    }
+    
+    .trevor{
+        width: 90%;
+        height: 95%;
+        /* margin-left: 7%; */
+        margin-left: 8%;
+        padding-top: 3%;
+        
+    }
+    
+    #wholepage{
+        flex-wrap: wrap;
+    
+    }
+    
+    .born{
+        margin-left: 18%;
+    }
+    
+    
+    .navbar{
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        gap: 5%;
+    }
+    
+    .navbar a{
+        /* justify-content: space-between; */
+        font-size: large;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width: 765px) and (max-width: 1024px){
+    body{
+        background-image: linear-gradient(rgb(232, 149, 232),rgb(239, 239, 167),rgb(134, 134, 219), rgb(93, 162, 93));
+    }
+    
+    .story{
+        font-size: large;
+        margin-left: 5%;
+    }
+    
+    .trevor{
+        width: 50%;
+        height: 70%;
+        margin-left: 8%;
+        padding-top: 3%;
+        
+    }
+    
+    #wholepage{
+        flex-wrap: wrap;
+    
+    }
+    
+    .born{
+        margin-left: 18%;
+    }
+    
+    
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+    }
+    
+    .navbar a{
+        justify-content: space-between;
+        font-size: large;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+}

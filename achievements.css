@@ -1,0 +1,364 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgb(200, 114, 200),rgb(179, 179, 135),rgb(134, 134, 219), rgb(88, 187, 88));
+}
+.container {
+    margin: 25%;
+    width: 50%;
+    margin-top: 5%;
+    background-color:rgb(225, 198, 225),rgb(105, 105, 89);
+    border: 0.25px solid;
+    border-radius:3%;
+    height: 400px;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #8b80af;
+    font-size: 16px;
+    margin-left: 45px;
+}
+button {
+    padding: 5px 15px;
+    border-radius: 70px;
+    border: none;
+    background-color:rgb(198, 159, 198);
+    color: white;
+    font-size: 10px;
+}
+button:hover {
+    background-color:rgb(216, 169, 177);
+}
+.achieve{
+    font-size: 10px;
+}
+
+
+.navbar{
+    display: flex;
+    gap: 5%;
+    margin-left: 500px;
+    font-size: x-large;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+
+#task{
+    margin-bottom: 70px;
+    margin-left: 10%;
+    padding-top: 20px;
+    font-size: small;
+
+}
+
+
+.put{
+    width: 200px;
+    height: 10px;
+    padding: 5px 5px;
+}
+
+
+.achieve{
+    font-size: xx-large;
+}
+
+
+
+@media only screen and(min-width:280px) and (max-width:680px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-image: linear-gradient(rgb(200, 114, 200),rgb(179, 179, 135),rgb(134, 134, 219), rgb(88, 187, 88));
+    }
+    .container {
+        margin: 25%;
+        width: 80%;
+        margin-top: 5%;
+        background-color:rgb(225, 198, 225),rgb(105, 105, 89);
+        border: 0.25px solid;
+        border-radius:3%;
+        height: 1300px;
+    }
+    h1 {
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    label {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #8b80af;
+        font-size: 10px;
+        margin-left: 30px;
+    }
+    button {
+        padding: 5px 15px;
+        border-radius: 70px;
+        border: none;
+        background-color:rgb(198, 159, 198);
+        color: white;
+        font-size: 10px;
+    }
+    button:hover {
+        background-color:rgb(216, 169, 177);
+    }
+    .achieve{
+        font-size: 10px;
+    }
+    
+    
+    .navbar{
+        display: flex;
+        gap: 5%;
+        /* margin-left: 500px; */
+        font-size: smaller;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: x-small;
+        
+    }
+    
+    
+    #task{
+        margin-bottom: 70px;
+        margin-left: 10%;
+        padding-top: 20px;
+        font-size: small;
+    
+    }
+    
+    
+    .put{
+        width: 10px;
+        height: 5px;
+        padding: 5px 5px;
+    }
+    
+    
+    .achieve{
+        font-size: large;
+    }
+
+    
+}
+
+@media only screen and(min-width:681px) and (max-width:850px){
+    body {
+        font-family: Arial, sans-serif;
+        background-image: linear-gradient(rgb(200, 114, 200),rgb(179, 179, 135),rgb(134, 134, 219), rgb(88, 187, 88));
+    }
+    .container {
+        margin: 25%;
+        width: 50%;
+        margin-top: 5%;
+        background-color:rgb(225, 198, 225),rgb(105, 105, 89);
+        border: 0.25px solid;
+        border-radius:3%;
+        height: 400px;
+    }
+    h1 {
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    label {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #8b80af;
+        font-size: 16px;
+        margin-left: 45px;
+    }
+    button {
+        padding: 5px 15px;
+        border-radius: 70px;
+        border: none;
+        background-color:rgb(198, 159, 198);
+        color: white;
+        font-size: 10px;
+    }
+    button:hover {
+        background-color:rgb(216, 169, 177);
+    }
+    .achieve{
+        font-size: 10px;
+    }
+    
+    
+    .navbar{
+        display: flex;
+        gap: 5%;
+        margin-left: 500px;
+        font-size: x-large;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        color: whitesmoke;
+        
+    }
+    
+    
+    #task{
+        margin-bottom: 70px;
+        margin-left: 10%;
+        padding-top: 20px;
+        font-size: small;
+    
+    }
+    
+    
+    .put{
+        width: 200px;
+        height: 10px;
+        padding: 5px 5px;
+    }
+    
+    
+    .achieve{
+        font-size: xx-large;
+    }
+    
+
+}
+
+
+
+@media only screen and(min-width:851px) and (max-width:1024px){
+    body {
+        font-family: Arial, sans-serif;
+        background-image: linear-gradient(rgb(200, 114, 200),rgb(179, 179, 135),rgb(134, 134, 219), rgb(88, 187, 88));
+    }
+    .container {
+        margin: 25%;
+        width: 50%;
+        margin-top: 5%;
+        background-color:rgb(225, 198, 225),rgb(105, 105, 89);
+        border: 0.25px solid;
+        border-radius:3%;
+        height: 400px;
+    }
+    h1 {
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    label {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #8b80af;
+        font-size: 16px;
+        margin-left: 45px;
+    }
+    button {
+        padding: 5px 15px;
+        border-radius: 70px;
+        border: none;
+        background-color:rgb(198, 159, 198);
+        color: white;
+        font-size: 10px;
+    }
+    button:hover {
+        background-color:rgb(216, 169, 177);
+    }
+    .achieve{
+        font-size: 10px;
+    }
+    
+    
+    .navbar{
+        display: flex;
+        gap: 5%;
+        margin-left: 500px;
+        font-size: x-large;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        color: whitesmoke;
+        
+    }
+    
+    
+    #task{
+        margin-bottom: 70px;
+        margin-left: 10%;
+        padding-top: 20px;
+        font-size: small;
+    
+    }
+    
+    
+    .put{
+        width: 200px;
+        height: 10px;
+        padding: 5px 5px;
+    }
+    
+    
+    .achieve{
+        font-size: xx-large;
+    }
+
+}
+
+
+
+
+
+
+
+
+

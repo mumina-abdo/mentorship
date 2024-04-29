@@ -1,0 +1,353 @@
+body{
+    background-image: linear-gradient(rgb(232, 149, 232), rgb(93, 162, 93));
+    background-color:rgb(202, 195, 187);
+    display: flex;
+    gap: 5px;
+
+}
+form{
+    border: 3px ;
+    width:fit-content;
+    margin-left: 3%;
+    padding: 3%;
+    height: fit-content;
+    margin-top: 2%;
+    font-size: 15px;
+    background-color:whitesmoke;
+    margin-right: 20%;
+    padding: 90px;
+    border-radius: 3px;
+    border-width: 5px;
+    border-color: rgb(199, 92, 199);
+    border-style: ridge;
+    border-radius: 50px;
+}
+input{
+    font-size: larger;
+    padding-left: 18%;
+    text-align: justify;
+}
+label{
+    font-size: small;
+}
+.button {
+    padding-left: 50%;
+    width: 200px;
+    font-size: larger;
+    background-color:whitesmoke;
+    margin-right: 10%;
+}
+.button a{
+    font-size: larger;
+    text-decoration: none;
+    color:black;
+    
+    
+}
+
+#treeimage{
+    margin-left: 3%;
+    margin-top: 2%;
+    height: fit-content;
+    width:fit-content;
+    
+
+}
+
+
+.assist{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    padding-top: 40%;
+}
+
+#wholepage{
+    display: flex;
+    margin-left: 18%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border: ridge 5px;
+    border-radius: 50px;
+    color: rgb(167, 102, 208);
+    border-color: rgb(157, 97, 157);
+
+    
+}
+
+.login{
+    border-radius: 48px;
+    width: 45%;
+    margin-right: 10%;
+    border: solid 1px;
+    color: rgb(63, 17, 110);
+}
+
+@media only screen and(min-width:280px) and (max-width:440px){
+    body{
+        background-image: linear-gradient(rgb(232, 149, 232), rgb(93, 162, 93));
+        background-color:rgb(202, 195, 187);
+        display: flex;
+        gap: 5px;
+    
+    }
+    form{
+        border: 3px ;
+        width:fit-content;
+        margin-left: 3%;
+        padding: 3%;
+        height: fit-content;
+        margin-top: 2%;
+        font-size: 15px;
+        background-color:whitesmoke;
+        margin-right: 20%;
+        padding: 90px;
+        border-radius: 3px;
+        border-width: 5px;
+        border-color: rgb(199, 92, 199);
+        border-style: ridge;
+        border-radius: 50px;
+    }
+    input{
+        font-size: larger;
+        padding-left: 18%;
+        text-align: justify;
+    }
+    label{
+        font-size: small;
+    }
+    .button {
+        padding-left: 50%;
+        width: 200px;
+        font-size: larger;
+        background-color:whitesmoke;
+        margin-right: 10%;
+    }
+    .button a{
+        font-size: larger;
+        text-decoration: none;
+        color:black;
+        
+        
+    }
+    
+    #treeimage{
+        margin-left: 3%;
+        margin-top: 2%;
+        height: fit-content;
+        width:fit-content;
+        
+    
+    }
+    
+    
+    .assist{
+        width: 400px;
+        height: 600px;
+        background-color: white;
+        padding-top: 40%;
+    }
+    
+    #wholepage{
+        display: flex;
+        margin-left: 18%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        border: ridge 5px;
+        border-radius: 50px;
+        color: rgb(167, 102, 208);
+        border-color: rgb(157, 97, 157);
+    
+        
+    }
+    
+    .login{
+        border-radius: 48px;
+        width: 45%;
+        margin-right: 10%;
+        border: solid 1px;
+        color: rgb(63, 17, 110);
+    }
+
+}
+
+
+
+@media only screen and(min-width:441px) and (max-width:900px){
+    body{
+        background-image: linear-gradient(rgb(232, 149, 232), rgb(93, 162, 93));
+        background-color:rgb(202, 195, 187);
+        flex-wrap: wrap;
+        gap: 5px;
+    
+    }
+    form{
+        border: 3px ;
+        width:fit-content;
+        margin-left: 3%;
+        padding: 3%;
+        height: fit-content;
+        margin-top: 2%;
+        font-size: 15px;
+        background-color:whitesmoke;
+        margin-right: 20%;
+        padding: 90px;
+        border-radius: 3px;
+        border-width: 5px;
+        border-color: rgb(199, 92, 199);
+        border-style: ridge;
+        border-radius: 50px;
+    }
+    input{
+        font-size: larger;
+        padding-left: 18%;
+        text-align: justify;
+    }
+    label{
+        font-size: small;
+    }
+    .button {
+        padding-left: 50%;
+        width: 200px;
+        font-size: larger;
+        background-color:whitesmoke;
+        margin-right: 10%;
+    }
+    .button a{
+        font-size: larger;
+        text-decoration: none;
+        color:black;
+        
+        
+    }
+    
+    #treeimage{
+        margin-left: 3%;
+        margin-top: 2%;
+        height: fit-content;
+        width:fit-content;
+        
+    
+    }
+    
+    
+    .assist{
+        width: 400px;
+        height: 600px;
+        background-color: white;
+        padding-top: 40%;
+    }
+    
+    #wholepage{
+        display: flex;
+        margin-left: 18%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        border: ridge 5px;
+        border-radius: 50px;
+        color: rgb(167, 102, 208);
+        border-color: rgb(157, 97, 157);
+    
+        
+    }
+    
+    .login{
+        border-radius: 48px;
+        width: 45%;
+        margin-right: 10%;
+        border: solid 1px;
+        color: rgb(63, 17, 110);
+    }
+
+}
+
+
+
+
+@media only screen and(min-width:901px) and (max-width:1024px){
+
+body{
+    background-image: linear-gradient(rgb(232, 149, 232), rgb(93, 162, 93));
+    background-color:rgb(202, 195, 187);
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+form{
+    border: 3px ;
+    /* width:fit-content; */
+    /* margin-left: 3%; */
+    padding: 3%;
+    /* height: fit-content; */
+    margin-top: 2%;
+    font-size: 15px;
+    background-color:whitesmoke;
+    margin-right: 20%;
+    padding: 50px;
+    border-radius: 3px;
+    border-width: 5px;
+    border-color: rgb(199, 92, 199);
+    border-style: ridge;
+    border-radius: 50px;
+}
+input{
+    font-size: larger;
+    padding-left: 18%;
+    text-align: justify;
+}
+label{
+    font-size: small;
+}
+.button {
+    padding-left: 50%;
+    width: 200px;
+    font-size: larger;
+    background-color:whitesmoke;
+    margin-right: 10%;
+}
+.button a{
+    font-size: larger;
+    text-decoration: none;
+    color:black;
+    
+    
+}
+
+#treeimage{
+    margin-left: 3%;
+    margin-top: 2%;
+    /* height: fit-content; */
+    /* width:fit-content; */
+    
+
+}
+
+
+.assist{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    padding-top: 40%;
+}
+
+#wholepage{
+    flex-wrap: wrap;
+    /* margin-left: 18%; */
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border: ridge 5px;
+    border-radius: 25px;
+    color: rgb(167, 102, 208);
+    border-color: rgb(157, 97, 157);
+
+    
+}
+
+.login{
+    border-radius: 40px;
+    width: 45%;
+    margin-right: 10%;
+    border: solid 1px;
+    color: rgb(63, 17, 110);
+}
+}
