@@ -52,8 +52,8 @@ body{
     body{
         background-image: linear-gradient(rgb(232, 149, 232),rgb(134, 134, 219));
         background-repeat: no-repeat;
-        /* height: 840px; */
-        /* width: 1000px; */
+        height: 840px;
+        width: 1000px;
     
     
     }
@@ -90,6 +90,8 @@ body{
     
     .rise{
         margin-left: -120%;
+        width: 10%;
+        height: 5%;
     }
     
     #navbar1{

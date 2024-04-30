@@ -61,3 +61,207 @@ button:hover {
 #task{
     margin-left: 100px;
 }
+
+@media only screen and(min-width:280px) and (max-width:440px){
+    body {
+        font-family: Arial, sans-serif;
+        background-image: linear-gradient(rgb(200, 114, 200),rgb(179, 179, 135),rgb(134, 134, 219), rgb(88, 187, 88));
+    }
+    .container {
+        margin: 25%;
+        width: 50%;
+        margin-top: 5%;
+        background-color:rgb(225, 198, 225);
+        border: 0.25px solid;
+        border-radius: 3%;
+        height: 500px;
+    }
+    h1 {
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    label {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+    button {
+        padding: 5px 15px;
+        border-radius: 50px;
+        border: none;
+        background-color:rgb(69, 38, 69);
+        color: white;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color:rgb(216, 169, 177);
+    }
+    
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+    }
+    
+    .navbar a{
+        /* justify-content: space-between; */
+        font-size: 10px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+    
+    #task{
+        margin-right: 100px;
+    }
+
+}
+
+
+
+@media only screen and(min-width: 441px) and (max-width:800px){
+    body {
+        font-family: Arial, sans-serif;
+        background-image: linear-gradient(rgb(200, 114, 200),rgb(179, 179, 135),rgb(134, 134, 219), rgb(88, 187, 88));
+    }
+    .container {
+        margin: 25%;
+        width: 50%;
+        margin-top: 5%;
+        background-color:rgb(225, 198, 225);
+        border: 0.25px solid;
+        border-radius:3%;
+        height: 500px;
+    }
+    h1 {
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    label {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+    button {
+        padding: 5px 15px;
+        border-radius: 50px;
+        border: none;
+        background-color:rgb(69, 38, 69);
+        color: white;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color:rgb(216, 169, 177);
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+    
+    .navbar a{
+        justify-content: space-between;
+        font-size: larger;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+    
+    #task{
+        margin-left: 100px;
+    }
+}
+
+
+@media only screen and(min-width: 801px) and (max-width:1024px){
+    body {
+        font-family: Arial, sans-serif;
+        background-image: linear-gradient(rgb(200, 114, 200),rgb(179, 179, 135),rgb(134, 134, 219), rgb(88, 187, 88));
+    }
+    .container {
+        margin: 25%;
+        width: 50%;
+        margin-top: 5%;
+        background-color:rgb(225, 198, 225);
+        border: 0.25px solid;
+        border-radius:3%;
+        height: 500px;
+    }
+    h1 {
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    label {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+    button {
+        padding: 5px 15px;
+        border-radius: 50px;
+        border: none;
+        background-color:rgb(69, 38, 69);
+        color: white;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color:rgb(216, 169, 177);
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+    
+    .navbar a{
+        justify-content: space-between;
+        font-size: larger;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+    
+    #task{
+        margin-left: 100px;
+    }
+
+}
+
