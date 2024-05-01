@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(rgb(232, 149, 232),rgb(239, 239, 167),rgb(134, 134, 219), rgb(93, 162, 93));
+
 }
 
 .story{
@@ -9,10 +10,10 @@ body{
 
 .trevor{
     width: 80%;
-    height: 60%;
+    height: 85%;
     margin-left: 7%;
     margin-left: 8%;
-    padding-top: 15%;
+    padding-top: 10%;
     
 }
 
