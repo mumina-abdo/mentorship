@@ -56,6 +56,14 @@ button:hover {
     text-decoration: none;
     color: whitesmoke;
 }
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.Nyjsum{
+    margin-left: 10px;
+}
 
 
 #task{
